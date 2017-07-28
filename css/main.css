@@ -1,18 +1,54 @@
 /***** BASE STYLES *****/
-
+body {
+  font-family: 'Montserrat', serif;
+}
 
 
 /***** GRID STYLES *****/
+.full-width {
+  width: 1200px
+  margin: 0 auto;
+}
 
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
 
 /***** HEADER *****/
+header {
+  height: 100px;
+}
 
+header h1 {
+  padding: 15px;
+}
+
+nav {
+  float: right;
+  padding: 225px 50px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 
 
 /***** ABOUT SECTION *****/
+h2 {
 
+}
 
-/***** WORK SECTION *****/
+/***** REVIEWS SECTION *****/
 
 
 

@@ -22,7 +22,7 @@ body {
 
 /***** HEADER *****/
 header {
-  height: 200px;
+  height: auto;
 }
 
 header h1 {
@@ -44,7 +44,7 @@ nav ul li a {
   text-transform: uppercase;
 }
  .header-image {
-   clear: both;
+   max-width: 100%;
  }
 
 /***** ABOUT SECTION *****/

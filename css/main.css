@@ -22,7 +22,7 @@ body {
 
 /***** HEADER *****/
 header {
-  height: 100px;
+  height: 200px;
 }
 
 header h1 {
@@ -31,8 +31,6 @@ header h1 {
 
 nav {
   float: right;
-  padding: 50px 50px;
-  margin-right: 225px;
 }
 
 nav ul li {
@@ -45,6 +43,9 @@ nav ul li a {
   font-weight: bold;
   text-transform: uppercase;
 }
+ .header-image {
+   clear: both;
+ }
 
 /***** ABOUT SECTION *****/
 #about {
@@ -52,7 +53,6 @@ nav ul li a {
 }
 
 #about h2 {
-  text-align: left;
 }
 
 /***** REVIEWS SECTION *****/

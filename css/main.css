@@ -1,12 +1,18 @@
 /***** BASE STYLES *****/
 body {
   font-family: 'Montserrat', serif;
+  font-weight: 500;
   margin: auto;
   width: 100%;
 }
 
 #wrapper {
   margin-left: 25px;
+}
+
+h4 {
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 p {
@@ -34,8 +40,8 @@ header {
 }
 
 header h1 {
-  padding: 15px;
-  font-weight: 500;
+  padding-top: 15px;
+  font-weight: 700;
   text-transform: uppercase;
   font-size: 30px;
 }
@@ -46,6 +52,7 @@ header h1 {
 
 nav {
   float: right;
+  padding-top: 30px;
 }
 
 nav ul li {
@@ -55,7 +62,7 @@ nav ul li {
 nav ul li a {
   padding-left: 20px;
   font-size: 14px;
-  font-weight: bold;
+  font-weight: 500;
   text-transform: uppercase;
   color: #77a466;
 }
@@ -67,24 +74,21 @@ nav ul li a {
 #about {
   height: auto;
   display: inline-block;
+  padding-bottom: 20px;
 }
 
 #about h2 {
   color: #77a466;
   font-size: 18px;
   text-transform: uppercase;
-}
-
-h3 {
-  font-variant: small-caps;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 
 /***** CONTAINER *****/
 #border {
-  border-bottom: 2px solid grey;
-  border-top: 2px solid grey;
+  border-bottom: 2px solid #CCCCCC;
+  border-top: 2px solid #CCCCCC;
 }
 
 .iblock {
@@ -96,12 +100,13 @@ h3 {
 /***** SPECIALS SECTION *****/
 #specials p {
   color: #77a466;
+  font-weight: 400;
 }
 
 /***** REVIEWS SECTION *****/
 #reviews {
-  border-right: 2px solid grey;
-  border-left: 2px solid grey;
+  border-right: 2px solid #CCCCCC;
+  border-left: 2px solid #CCCCCC;
 }
 
 p {
@@ -119,6 +124,7 @@ footer {
 #fresh-highlight {
  color: #77a466;
  font-style: italic;
+ font-family: 'Lobster', cursive;
 }
 
 

@@ -18,6 +18,7 @@ body {
 .third-width {
   width: 400px;
   float: left;
+  border-right: 2px solid grey;
 }
 
 /***** HEADER *****/
@@ -27,6 +28,12 @@ header {
 
 header h1 {
   padding: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#header-highlight {
+  color: #77a466;
 }
 
 nav {
@@ -42,6 +49,7 @@ nav ul li a {
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
+  color: #77a466;
 }
  .header-image {
    max-width: 100%;
@@ -51,20 +59,37 @@ nav ul li a {
 #about {
   height: auto;
   display: inline-block;
+  border-bottom: 2px solid grey;
 }
 
 #about h2 {
 }
 
-/***** REVIEWS SECTION *****/
+h3 {
+  font-variant: small-caps;
+  font-weight: bold;
+}
 
-/***** ENDORSEMENT SECTION *****/
+/***** SPECIALS SECTION *****/
+#specials h4 {
+  color: #77a466;
+}
+
+/***** REVIEWS SECTION *****/
+p {
+}
+
 
 /***** CONTACT SECTION *****/
 footer {
   height: auto;
   clear: both;
   text-align: center;
+}
+
+#fresh-highlight {
+ color: #77a466;
+ font-style: italic;
 }
 
 
